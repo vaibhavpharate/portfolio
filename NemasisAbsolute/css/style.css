@@ -1,0 +1,444 @@
+:root
+{
+	font-size: 14px;
+}
+.loaderscreen
+    {
+      width:100%;
+      height: 100%;
+      position: absolute;
+      top:0;
+      left:0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000000;
+      background: #f4f4f4;
+    }
+.spinner {
+  width: 60px;
+  height: 60px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+
+.raleway
+{
+	font-family: 'Raleway' , sans-serif;
+}
+.purple
+{
+	color:#5d257c !important;
+}
+.fontone
+{
+	font-size: 1.5rem;
+	border:3px solid #5d257c ;
+}
+.purpleback
+{
+	background: #5d257c; 
+}
+.MainWrappers
+{
+	background: #5d257c;
+}
+.fas1
+{
+	font-size: 1.2rem;
+	border-bottom: 1px dotted #fff;
+}
+.font2
+{
+	font-size: 1.5rem;
+}
+.somebutton
+{
+	border: 2.5px solid #772f9f !important;
+	border-radius: 0px !important;
+}
+.clickbutton
+{
+ border: 2.5px solid black !important;
+	border-radius: 0px !important;
+}
+.onetopa
+{
+	color:#565656;
+	text-transform: capitalize;
+	font-size: 1.1rem;
+}
+.onetoppb
+{
+	font-size: 1.5rem;
+}
+.onetoppc
+{
+	font-size: 1.5rem;
+}
+.onetop
+{
+	/*padding-top: 30px;
+	padding-bottom: 30px;*/
+}
+
+.backwhite
+{
+	background:white;
+}
+.fontrale
+{
+	font-family: "raleway" ,sans-serif;
+}
+.headblog
+{
+	    font-family: "playfair-display" , sans-serif;
+}
+.clear
+{
+	clear: both;
+}
+.datespan
+{
+	float: right;
+	color:#6c6c6c;
+}
+.blogtitle
+{
+	font-size: 1.5rem;
+}
+.blackborder
+{
+	width: 100%;
+	height: 7px;
+	background: black;
+}
+.buttonmore
+{
+	background: white !important;
+	border-radius: 0px !important;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.description
+{
+	color:#565656;
+}
+.onetop
+{
+	    background: url(../Images/Background/Content2A.png) no-repeat center;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+}
+.fontplay
+{
+	    font-family: 'playball';
+	    font-size: 2rem;
+}
+.onebottom
+{
+	background: #f4f4f4;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.textkate
+{
+	font-family: 'playfair-display',serif;
+    font-style: italic;
+    color: #565656
+}
+.buttonmore1
+{
+	background: white !important;
+	border-radius: 0px !important;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+.thesome
+{
+	font-size: 1.3rem;
+
+}
+.store
+{
+	font-size: 2rem;
+}
+.borderdiv
+{
+	padding-top: 5% !important;
+	padding-bottom: 5% !important;
+	width: 80%;
+	text-align: center;
+	border:3px solid #772f9f;
+}
+.twotop
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.threetop
+{
+	background: url(../Images/Background/Purpleshoes.png) no-repeat top;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.threebottom
+{
+	    background: url(../Images/Background/Content2C.png) no-repeat center;
+}
+.nike
+{
+	padding-top: 20px;
+}
+.paddingt
+{
+	padding-top: 20px;
+}
+.whiteback
+{
+	background: white;
+}
+.daily
+{
+	    font-family: 'playfair-display',serif;
+    font-style: italic;
+    color: #565656;
+    font-size: 1.2rem;
+    width: 70%;
+}
+.insp
+{
+	font-size: 1.5rem;
+	 width: 70%;
+	 margin-top: -10px;
+}
+.inspiration
+{
+	width:95%;
+}
+.containA
+{
+	    background: url(../Images/Background/Sunglasses.png) no-repeat top;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.containB
+{
+    background: url(../Images/Background/Purplesuit.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.containC
+{
+	    background: url(../Images/Background/NewGallery.png) no-repeat center;
+	    background-size: cover;
+	    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.onetoppa
+{
+	color:#f4f4f4;
+	text-transform: capitalize;
+	font-size: 1.2rem;
+}
+.font3
+{
+	font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 1000px){
+.fontone
+{
+	font-size: 2rem !important;
+	
+}
+.lasth2
+{
+ font-family: "raleway" ,sans-serif;
+    font-weight: bold;
+    font-size: 42.35px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.font3
+{
+	font-size: 2.3rem;
+}
+.containA,.containB
+{
+	padding-top: 20%;
+}
+.containC
+{
+padding-top: 230px;
+}
+.inspiration
+{
+	width:75%;
+}
+.insp
+{
+	font-size: 1.8rem;
+}
+.daily
+{
+	    font-family: 'playfair-display',serif;
+    font-style: italic;
+    color: #565656;
+}
+.paddingt
+{
+	padding-top: 14%;
+}
+.onetoppc
+{
+	font-size: 2rem;
+	cursor: pointer;
+}
+.nike
+{
+	padding-top: 50%;
+}
+.borderdiv
+{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+.store
+{
+	font-size: 3rem;
+}
+.textkate
+{
+
+	margin-top: -10px;
+}
+
+.textkate2
+{
+	margin-left: 3px !important;
+	margin-top: -10px;
+}
+.onetop
+{
+height:535px;
+	padding-top:30%;
+}
+.onebottom
+{
+	height:265px;
+}
+.twotop
+{
+	height:265px;
+	padding-top: 40px;
+}
+.twobottom
+{
+	height:535px;
+	background: #f4f4f4 url(../Images/Background/KateWinslet.png) no-repeat right;
+	background-size: contain;
+}
+.threetop
+{
+	height:535px;
+}
+.threebottom
+{
+	height:265px;
+}
+.onetopa
+{
+	color:#565656;
+	text-transform: capitalize;
+	font-size: 1.2rem;
+}
+.onetoppa
+{
+	color:#f4f4f4;
+	text-transform: capitalize;
+	font-size: 1.3rem;
+}
+.lastone
+{
+font-size:2rem; }
+.allinone
+{
+	height: 800px;
+}
+.description
+{
+	margin-top: 50px;
+	font-size: 1.125rem;
+}
+.blackborder
+{
+	width: 70%;
+	
+}
+.readertext
+{
+	font-size: 2.1rem;
+	margin-top: 20px;
+}
+.blogtitle
+{
+	font-size: 1.8rem;
+}
+.purpleback
+{
+	padding-top: 40px !important;
+	padding-bottom: 40px !important; 
+	margin-left: 160px !important;
+}
+.datespan
+{
+	float: right;
+	color:#6c6c6c;
+}
+.black
+{
+	font-size: 1.25rem !important;
+
+}
+.changebacktop
+{
+	background: url(../Images/Background/herodesk.png) no-repeat left;
+	background-size: cover;
+	padding-top: 120px !important;
+	padding-bottom: 120px !important; 
+}
+.font2
+{
+	font-size: 2.3rem;
+}
+.heightsome
+{
+	height: 655px;
+}
+}
