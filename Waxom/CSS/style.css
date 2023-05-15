@@ -1,0 +1,609 @@
+*
+{
+	font-family: 'raleway',sans-serif;
+}
+.loaderscreen
+    {
+      width:100%;
+      height: 100%;
+      position: absolute;
+      top:0;
+      left:0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000000;
+      background: #f4f4f4;
+    }
+.spinner {
+  width: 60px;
+  height: 60px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+.main_hero
+
+{
+	background: url(../Images/Background/hero.png) no-repeat top;
+	overflow:hidden;
+	background-size: cover;
+}
+.menu_button
+{
+	background: transparent;
+	color:white;
+	border:1px solid white;
+}
+.line1,.line2,.line3
+{
+	width:20px;
+	height: 2px;
+	color: white;
+	border: 1px solid white;
+	margin-bottom: 5px;
+}
+.line1
+{
+	margin-top: 5px;
+}
+.navmenu a
+{
+	font-size: 1.25rem;
+}
+.navmenu a:hover
+{
+	color:#c7b299 !important;
+}
+.unique
+{
+	font-size:1.3rem ;
+
+}
+.fontmont
+{
+	font-family: 'montserrat' , sans-serif;
+}
+.getstarted
+{
+	background: #998675;
+	font-weight: bold;
+}
+.colorsome
+{
+	color:#8c8c8c;
+}
+.oneforone
+{
+	width:90%;
+}
+.borderhover
+{
+	border-bottom: 2px solid transparent;
+}
+.tophovers
+{
+	cursor: pointer;
+}
+.tophovers:hover .imghover 
+{
+background-color:#c7b299; 
+border-radius:15px;
+}
+.tophovers:hover .borderhover
+{
+	border-bottom: 3px solid #c7b299;
+}
+.widesome
+{
+	width:100%;
+}
+.fontsome
+{
+	font-size:1.3rem;
+	color:#555555;
+}
+.brownback
+{
+	background: #382820;
+
+}
+.colchange
+{
+	font-size: 1.25rem;
+
+}
+.getstarted:hover
+{
+	background: #56392b;
+	border:2px solid #c7b299;
+}
+
+.project-item 
+{
+	border:1px solid #8c8c8c;
+	margin-top: 20px;
+}
+.activebutton
+{
+	background-color: #998675 !important;
+	color: white !important;
+}
+.colorone
+{
+	color:#c7b299;
+	font-size: 1.3rem;
+}
+.colortwo
+{
+	color:#939393;
+}
+.maincard
+{
+	cursor:pointer;
+}
+
+.maincard:hover .cardchange
+{
+ background-color: #362f2d;
+}
+.show2
+{
+	display: none;
+}
+.activeshow
+{
+	display: flex !important; 
+}
+.workingback
+{
+	background:url(../Images/Background/Working.png) no-repeat top left;
+
+}
+.fontPresentation
+	{
+     font-size: 1.3rem;
+	}
+	.somelist
+	{
+		/*list-style-image: url(../Images/Illustrations/Listimage.png);*/
+		color: #8c8c8c !important;
+		list-style:none;
+	}
+	.somelist li
+	{
+		background: url(../Images/Background/Listimage.png) no-repeat top left;
+	         padding-left: 35px;
+	}    
+	.fontnumber
+	{
+		font-size: 2rem;
+		margin-bottom: 20px !important;
+	}
+	.borderone
+	{
+		border: 2px solid white;
+	}
+	.marginsome
+	{
+		margin-top: 25px;
+	}
+	.Ablack
+	{
+		border-top-right-radius:8px; 
+		border-top-left-radius:8px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background: #363636;
+	}
+	.Agrey
+	{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-bottom-right-radius:8px; 
+		border-bottom-left-radius:8px;
+		background: #252525;
+	}
+	.change .abovecard .Ablack
+	{
+		background: #c7b299 !important;
+	}
+  .change .abovecard .Agrey
+	{
+		background: #a48d72 !important;
+	}
+	.abovecard
+	{
+		width:40%;
+	}
+	.buttonchange
+	{
+		color:#c7b299;
+		border-color:#c7b299;
+		cursor:pointer !important;
+	}
+	.change .belowcard
+	{
+		background: #362f2d;
+	}
+	.change .belowcard .onepchance
+	{
+      color:#c7b299 !important;
+	}
+	.change .belowcard .twopchange
+	{
+      color:white;
+	}
+	.mountainback
+	{
+		background:url(../Images/Background/Mountainback.png) no-repeat bottom left;
+	    background-size: cover;
+	}
+	.borderfooter
+	{
+		border-bottom: 1px solid #555555;
+		width:100%;
+	}
+	.brownback2
+	{
+		background: #191919;
+	}
+	.fromright
+	{
+		animation-name: textright;
+		animation-duration: 2s;
+	}
+	@keyframes textright
+	{
+       0%
+       {
+       	transform: translateX(200px);
+       	opacity: 0;
+       }
+       100%
+       {
+       	transform: translateX(0px);
+       	opacity: 1;
+       }
+	}
+	.faze
+	{
+      animation-name: faze;
+      animation-duration: 2s;
+	}
+	@keyframes faze
+	{
+		0%
+		{
+			opacity: 0;
+		}
+		100%
+		{
+			opacity: 1;
+		}
+	}
+	.frombottombtn
+	{
+		animation-name: btnbottom;
+		animation-duration: 2s;
+	}
+	@keyframes btnbottom
+	{
+		0%
+		{
+			transform: translateY(50px);
+			opacity: 0;
+		}
+		100%
+		{
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+	.buttonchange
+	{
+		cursor: pointer !important; 
+	}
+    .imgfromtop
+    {
+    	animation-name: imgtop;
+    	animation-duration: 2s;
+    }
+    @keyframes imgtop
+    {
+    	0%
+    	{
+    		transform: translateY(-50px);
+    		opacity: 0;
+    	}
+    	100%
+    	{
+    		transform: translateY(0px);
+    		opacity: 1;
+    	}
+    }
+    .imgfromright
+    {
+    	animation-name: imgright;
+    	animation-duration: 2s;
+    }
+    @keyframes imgright
+    {
+    	0%
+    	{
+    		transform: translateX(50px);
+    		opacity: 0;
+    	}
+    	100%
+    	{
+    		transform: translateX(0px);
+    		opacity: 1;
+    	}
+    }
+    .imgfromleft
+    {
+    	animation-name: imgleft;
+    	animation-duration: 2s;
+    }
+    @keyframes imgleft
+    {
+    	0%
+    	{
+    		transform: translateX(-50px);
+    		opacity: 0;
+    	}
+    	100%
+    	{
+    		transform: translateX(0px);
+    		opacity: 1;
+    	}
+    }
+.textfrombottom
+{
+	animation-name: textbottom;
+	animation-duration: 2s;
+}
+
+@keyframes textbottom
+{
+	0%
+	{
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+.listanimation1
+{
+	animation-name: listone;
+	animation-duration: 2s;
+}    
+@keyframes listone
+{
+	0%
+	{
+		transform: translateX(-60px);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateX(0px);
+		opacity:1;
+	}
+}
+.listanimation2
+{
+	animation-name: listtwo;
+	animation-duration: 2s;
+	animation-delay: 0.3s;
+}    
+@keyframes listtwo
+{
+	0%
+	{
+		transform: translateX(-60px);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateX(0px);
+		opacity:1;
+	}
+}
+.listanimation3
+{
+	animation-name: listthree;
+	animation-duration: 2s;
+	animation-delay: 0.6s;
+}    
+@keyframes listthree
+{
+	0%
+	{
+		transform: translateX(-60px);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateX(0px);
+		opacity:1;
+	}
+}
+.listanimation4
+{
+	animation-name: listfour;
+	animation-duration: 2s;
+	animation-delay: 0.9s;
+}    
+@keyframes listfour
+{
+	0%
+	{
+		transform: translateX(-60px);
+		opacity: 0;
+	}
+	100%
+	{
+		transform: translateX(0px);
+		opacity:1;
+	}
+}
+
+@media only screen and (min-width: 1200px)
+{
+	.navmenu a
+	{
+		font-size:1rem !important;
+	}
+	.fontPresentation
+	{
+     font-size:2rem !important; 
+	}
+	.hoverbutton:hover
+	{
+	background:#c7b299; 
+	cursor: pointer;
+	border-radius: 15px;
+	}
+	.hoverbutton
+	{
+		width:30%;
+		height:81px;
+	}
+	.herocontainer
+	{
+		min-height: 720px;
+	}
+	.oneforone
+	{
+		width:50%;
+	}
+	.somelist li
+	{
+		padding-left: 25px;
+	}
+	.workingback
+	{
+		background-size: cover;
+		background-position: 00px -100px;
+		padding-top: 250px !important;
+		padding-bottom: 250px !important;
+	}
+	.unique
+	{
+		font-size:2.333rem;
+	}
+	.uniqueh1
+	{
+		font-size:3rem;
+		font-weight: bolder;
+	}
+	.herocontainer
+	{
+    padding-top: 250px;
+    padding-bottom: 150px;
+	}
+	.getstarted
+	{
+		font-size:1.25rem !important;
+		
+	}
+	.circle
+	{
+		width:20px;
+		height: 20px;
+		background:rgba(255,255,255,0.50);
+		border-radius: 50%;
+		cursor: pointer;
+	}
+	.activecircle
+	{
+		background:#c7b299 !important; 
+	}
+	.widthsome
+	{
+		width:75% !important;
+	}
+.fontsome
+{
+	font-size:1.8rem;
+	color:#555555;
+}
+.colchange
+{
+	font-size: 1.5rem;
+	
+}
+.margintop .fontsome
+{
+	margin-top: 115px;
+}
+.margintop .fontmont
+{
+	width:670px;
+	margin-left: auto;
+}
+	.somelist 
+	{
+		text-indent: 20px;
+		width:650px;
+		margin-left: auto;
+	}
+
+	.somelist li
+	{
+		padding-bottom: 10px;
+	}
+	.fontnumber
+	{
+		font-size: 2.3rem;
+	}
+	.marginsome
+	{
+		margin-top: 0px !important;
+	}
+	.maintwo img
+	{
+		height: 266px !important;
+	}
+	.abovecard
+	{
+		width:110px;
+	}
+	.mountainback
+	{
+		padding-top: 140px !important;
+		padding-bottom: 140px !important;
+	}
+	.borderfooter
+	{
+		border-bottom: 1px solid #555555;
+		width:70%;
+	}
+}
