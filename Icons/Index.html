@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Icons</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css"  href="CSS/fontawesome.min.css" >
+<!-- 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+</head>
+<body>
+<ul>
+	<li>
+		<a href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span><i class="fab fa-facebook-f" arai-hidden="true"></i></span>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span><i class="fab fa-twitter"></i></span>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span><i class="fab fa-instagram"></i></span>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span><i class="fab fa-linkedin-in"></i></span>
+		</a>
+	</li>
+	<li>
+		<a href="#">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span><i class="fab fa-google-plus-g"></i></span>
+		</a>
+	</li>
+</ul>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).on({
+    "contextmenu": function(e) {
+        console.log("ctx menu button:", e.which); 
+
+       e.preventDefault();
+    },
+    "mousedown": function(e) { 
+        console.log("normal mouse down:", e.which); 
+    },
+    "mouseup": function(e) { 
+        console.log("normal mouse up:", e.which); 
+    }
+});
+$(document).keydown(function (event) {
+    if (event.keyCode == 123) { 
+        return false;
+    } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) { // Prevent Ctrl+Shift+I        
+        return false;
+    }
+});
+
+</script>
+</body>
+</html>

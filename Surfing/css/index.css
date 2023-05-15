@@ -1,0 +1,792 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px auto;
+	padding:0px;
+}
+body a
+{
+	text-decoration: none;
+	color:#0b0c11;
+	text-transform: uppercase;
+		font-family:'League Spartan',  sans-serif;
+}
+.loaderscreen
+		{
+			width:100%;
+			height: 100%;
+			position: absolute;
+			top:0;
+			left:0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 100000;
+			background: #f4f4f4;
+		}
+.spinner {
+  width: 60px;
+  height: 60px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+#Mainwrapper
+{
+	width:100%;
+	height:auto;
+	background:#fefefe;
+}
+#topbar
+{
+	width: 100%;
+	height: auto;
+
+	text-align: center;
+		
+}
+#topbar #logo
+{
+	display: inline-block;
+	width:8%;
+	background: url(../images/background/logo.png) no-repeat center;
+	background-size: contain;
+	padding-bottom: 80px;
+ margin-top: 5px;
+	vertical-align: top;
+   
+}
+ .navbar
+{
+	display:inline-block;
+	width: 79%;
+
+	vertical-align: top;
+}
+ .navbar nav 
+{
+	font-size: 0.8em;
+
+	margin-top:35px;
+	text-transform: uppercase;
+	font-family:'League Spartan',  sans-serif;
+	
+	
+}
+.navbar nav a
+{
+	padding: 2px 7px;
+	font-size: 0.7em;
+}
+.navbar nav a:hover
+{
+	border-bottom: 5px solid #267196;
+}
+#Hero
+{
+	margin-top: 20px;
+	width:100%;
+	height: 400px;
+	background: url(../images/background/Top1.png) no-repeat center;
+
+	
+}
+#Hero .Herocontent
+{
+	width:67%;
+	height: auto;
+	background:rgba(122,136,133,0.4);
+	padding: 5px;
+ display: inline-block;
+	margin-top: 175px;
+	box-shadow: -15px -15px 43px 3px #cccccc;
+}
+#Hero .Herocontent p.blue
+{
+	text-transform: uppercase;
+		font-family:'League Spartan',  sans-serif;
+	color:#5a7fa3;
+	font-size: 1em;
+	padding-top: 5px;
+	
+}
+.Herocontent strong
+{
+	font-family: "playfair-display" ,serif;
+	font-weight:bold;
+	font-size:1.2em;
+}
+.Herocontent p.story
+{
+	font-family: "Poppins Light", sans-serif;
+	font-size: 0.9em;
+	color:#393939;
+}
+p.story
+{
+	font-family: "Poppins Light", sans-serif;
+	font-size: 0.9em;
+	color:#393939;
+}
+
+.said{
+	padding-top:20px;
+	width: 100%;
+	text-align: center;
+	color:#333333;
+}
+.said h3
+{
+	font-size: 1.3em;
+	font-family: "playfair-display" ,serif;
+	font-weight:normal;
+	
+	padding-bottom: 5px;
+}
+.said p
+{
+		text-transform: uppercase;
+		font-family:'League Spartan',  sans-serif;
+	font-size: 0.8em;
+
+}
+#video 
+{
+	height: auto;
+	width:100%;
+	text-align:center;
+	margin-top:30px;
+}
+#video video
+{
+	width: 95%;
+}
+#video #Videocontents
+{
+	padding: 25px 0px;
+}
+#video #Videocontents p.story
+{
+	
+	padding-bottom: 25px;
+}
+#video #Videocontents a
+{
+	text-transform: uppercase;
+	font-family:'League Spartan',  sans-serif;
+	color:#333333;
+	border-bottom: 5px solid #4B7E78;
+}
+#video #Videocontents a:hover
+{
+	border-bottom: 5px solid #267196;
+}
+#Shop
+{ padding-top: 20px;
+	width:95%;
+	height:auto;
+	
+}
+.Board
+{
+	width:95%;
+	background: url(../images/background/ShopBoard.png) no-repeat center;
+	padding-bottom:20px;
+	border-bottom: 1px dotted grey;
+	text-align: center;
+}
+
+.Board .Details
+{
+	text-align: center;
+
+	
+} 
+.Details img
+{
+	display:inline-block;
+}
+
+
+.Board img
+{
+	margin:0px 0px;
+	width:30%;
+
+}
+.Details
+{
+	width:60%;
+	display:inline-block;
+ vertical-align: top;
+text-align: center;
+	margin-top: 45px;
+}
+.boardcategory
+{
+	text-transform: uppercase;
+	padding: 10px;
+	
+}
+.Details h3
+{
+	font-family: "playfair-display" ,serif;
+	font-size:1em;
+	color:#333333;
+}
+.Details h2
+{ margin: 12px;
+	font-family: "Poppins Light", sans-serif;
+	color:#ce60a8;
+	font-size: 0.9em;
+}
+.Details a:hover
+{
+	border-bottom:2px thick #190070;
+}
+.Details a
+{
+	font-size: 0.7em;
+}
+.more
+{
+	width: 100%;
+	margin-top: 65px;
+		text-align: center;
+}
+ a.Show
+{
+
+	border-bottom: 3px solid #bcdbf9;
+	font-size: 0.7em;
+}
+#SurfTraining
+{
+	width: 95%;
+	background: url(../images/background/surfman.png) no-repeat top right;
+	background-size: 83%;
+	margin-top: 30px;
+
+}
+#SurfTraining .Herocontent
+{
+	width:67%;
+	height: auto;
+	background:rgba(122,136,133,0.6);
+	padding: 5px;
+ display: inline-block;
+	margin-top: 48px;
+		
+
+}
+#PointBreak
+{
+	width: 95%;
+	background: url(../images/background/Pointbreak.png) no-repeat top left;
+	background-size: 70%;
+	text-align: right;
+	margin-top: 30px;
+}
+#PointBreak .Herocontent
+{  text-align: left;
+	width:67%;
+	height: auto;
+	background:rgba(122,136,133,0.6);
+	padding: 5px;
+ display: inline-block;
+	margin-top: 20px;
+margin-bottom:7px; 
+}
+#PointBreak .Herocontent .more
+{
+	margin-top: 30px;
+}
+#JoinTheClub
+{
+	margin-top: 30px;
+	width:100%;
+	text-align: center;
+}
+#JoinTheClub strong
+{
+	font-size: 1.5em;
+	font-family: "playfair-display" ,serif;
+	color:#333333;
+}
+#JoinTheClub form
+{
+	margin-top: 20px;
+}
+#JoinTheClub form input#A
+{
+	width: 70%;
+	height: 3em;
+	vertical-align: top;
+	border: 1px solid grey;
+	
+	 
+}
+#JoinTheClub form input#B
+{  font-size: 2.1em;
+	height: auto;
+	background: #5da8ef;
+	width:60px;
+	text-transform: uppercase;
+	border-color:#5da8ef;
+	color: #ffffff;
+	
+}
+
+#Address
+{
+	width:98%;
+	
+	margin-top: 60px;
+}
+#Address #Group
+{
+	width:50%;
+	display: inline-block;
+}
+#Address #Group img
+{
+	width: 100%;
+	margin-top: 30px;
+}
+#Address #add
+{
+	width:47%;
+	display: inline-block;
+	font-size: 1em;
+	vertical-align: top;
+	text-align: right;
+
+}
+#Address #add p
+{
+	text-transform: uppercase;
+	font-family:'League Spartan',  sans-serif;
+	font-size: 0.8em;
+	color:#5da8ef;
+	margin: 0px 20px;
+}
+#Address #add h2
+{
+	font-size: 1.3em;
+	font-family: "playfair-display" ,serif;
+	margin: 10px 3px;
+	
+}
+#Address a
+{
+	font-size: 0.8em;
+	margin: 10px 20px;
+	color:#5da8ef;
+	border-bottom: 2px solid #5da8ef;
+	
+}
+#logofoot
+{   margin-top: 15px;
+	padding-bottom:10px;
+	background: url(../images/background/logo.png) no-repeat center;
+    color:#ffffff;
+	background-size: contain;
+}
+#footer
+{
+	width: 100%;
+	text-align: center;
+}
+@media only screen and (min-width: 1000px){
+	*
+	{
+		margin:0px auto;
+		padding:0px;
+	}
+	body{
+		width:1500px;
+		height: auto;
+		margin:0px auto;
+	}
+	#topbar
+	{
+		height: 45px;
+		text-align: center;
+		margin: 10px 0px;
+	}
+	#topbar #logo
+	{
+		width:45px;
+		height: 45px;
+		padding-bottom: 20px;
+	}
+#topbar .navbar
+	{
+		height: auto;
+	}
+	#topbar nav
+	{
+		font-size: 10px;
+		height: auto;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+		#topbar nav a
+	{
+		padding: 0px 40px;
+		font-size: 17px;
+
+	}
+	
+	#Hero
+{
+	margin-top: 45px;
+	width:88%;
+	height: 573px;
+	background: url(../images/background/Top1.png) no-repeat center;
+
+	
+}
+#Hero .Herocontent
+{
+	width:50%;
+	height: auto;
+	padding: 5px;
+ display: inline-block;
+	margin-top: 175px;
+	background: none;
+	box-shadow: none;
+
+}	
+	
+	.Herocontent strong
+{
+	font-family: "playfair-display" ,serif;
+	font-weight:bold;
+	font-size:62px;
+}
+#Hero .Herocontent p.blue
+	{
+		font-size: 10px;
+	}
+	.Herocontent p.story
+{
+	font-family: "Poppins Light", sans-serif;
+	font-size: 14px;
+	height: auto;
+	width:50%;
+	color:#393939;
+	margin: 0px;
+}
+	.said{
+	margin-top:190px;
+
+}
+	.said h3
+{ width:45%;
+	font-size:26px;
+	font-family: "playfair-display" ,serif;
+	font-weight:normal;
+	
+	margin-bottom: 20px;
+}
+.said p
+{
+		text-transform: uppercase;
+		font-family:'League Spartan',  sans-serif;
+	font-size: 13px;
+
+}
+	#video 
+{
+	height: 600px;
+	width:88%;
+	text-align:center;
+	margin-top:200px;
+	background: url(../images/background/Back1.png) no-repeat top left;
+}
+#video video
+{
+	width: 710px;
+	height: 550px;
+	float: right;
+}
+	#video #Videocontents
+{
+	padding-top: 455px;
+}
+#video #Videocontents p.story
+{   margin: 0px auto 0px 30px;
+	text-align: center;
+	width: 30%;
+	font-size: 14px;
+	padding-bottom: 25px;
+}
+#video #Videocontents a
+{
+	
+	font-size: 11px;
+	float: left;
+	margin-left: 30px;
+	border-bottom: 0.5px solid #4B7E78;
+}
+#Shop
+{ margin-top: 30px;
+	width:88%;
+	height:560px;
+	
+}
+	.Board
+{
+	width:32%;
+	background: url(../images/background/ShopBoard.png) no-repeat bottom left;
+	padding-bottom:20px;
+	border-bottom: none;
+	margin: 0px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+	
+.Board:nth-child(even)
+{
+	text-align: left;
+	background: url(../images/background/ShopBoard.png) no-repeat bottom left;
+	margin-top: 10px;
+}	
+	.Board:nth-child(even) .Details
+{
+	text-align: center;
+	
+}
+	.boardcategory
+{
+	
+	font-size: 12px;
+	padding-bottom: 0px;
+	
+}
+	.Details
+	{
+		margin-top: 130px;
+	}
+	.Details h3
+{
+	
+	font-size:26px;
+	margin-left: 65px;
+	
+}
+	.Details h2
+	{
+		font-size: 20px;
+		margin-bottom: 5px;
+		
+	
+	}
+	.Details a
+	{
+		font-size:12px;
+		
+	}
+	a.Show
+	{
+		font-size: 15px;
+	}
+	#SurfTraining
+{
+	width: 88%;
+	height: 440px;
+	margin-top: 170px;
+	background-size: 68%;
+
+}
+	#SurfTraining .Herocontent
+{
+	width:50%;
+	
+	background:none;
+	padding: 5px;
+ display: inline-block;
+	margin-top: 100px;
+		box-shadow: none;
+margin-bottom:70px; 
+}
+#SurfTraining .Herocontent p.story
+	{
+		width: 62%;
+		color:#616161;
+	}
+	#SurfTraining .Herocontent  strong
+	{    font-family: "playfair-display" ,serif;
+		font-size: 42px;
+		display: block;
+	padding-bottom: 20px;
+	}
+	#SurfTraining .more
+	{
+		margin:0px;
+		text-align: left;
+		
+	}
+		#SurfTraining .more a
+	{
+		font-size: 9px;
+	}
+	#PointBreak
+{
+	width: 60%;
+	background: url(../images/background/Pointbreak.png) no-repeat  left center;
+	background-size: 50%;
+	text-align: right;
+	margin-top: 120px;
+	height: 443px;
+}
+	#PointBreak .Herocontent
+{  text-align: left;
+	width:48%;
+	
+	background:none;
+	padding: 5px;
+ display: inline-block;
+	margin-top: 80px;
+		box-shadow: none;
+margin-bottom:30px; 
+}
+		#PointBreak .Herocontent p.story
+	{
+		margin: 0px;
+		width: 100%;
+		text-align: left;
+	}
+	#PointBreak .Herocontent  strong
+	{font-size: 42px;
+		display: block;
+	padding-bottom: 20px;
+		
+	}
+	#PointBreak .more
+	{ width: 60%;
+		
+		margin: 0px;
+		text-align:  right;
+		
+	}
+	a.Show
+	{
+		font-size:10px !important;
+	}
+	#JoinTheClub
+{
+	margin-top: 250px;
+	width: 88%;
+	text-align: center;
+}
+#JoinTheClub strong
+{
+	font-size: 42px;
+	display: block;
+	padding-bottom: 10px;
+	
+}
+#JoinTheClub form
+{
+	margin-top: 30px;
+}
+#JoinTheClub form input#A
+{
+	width: 550px;
+	height: 48px;
+	vertical-align: top;
+	}
+#JoinTheClub form input#B
+{  font-size:40px;
+	
+}
+	#Address
+{
+	width:100%;
+	height: 475px;
+	
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+	#Address #Group
+{
+	width:50%;
+	display: inline-block;
+	float: left;
+}
+	#Address #add
+	{
+		float: right;
+		text-align: left;
+		margin-top: 180px;
+	}
+	#Address #add p
+{
+	
+
+	font-size: 12px;
+	color:#545454;
+	margin: 0px 10px;
+}
+	#Address #add h2
+{
+	font-size: 32px;
+
+	margin: 10px 3px 25px ;
+	width: 45%;
+	
+}
+	#Address a
+{
+	font-size: 12px;
+	margin: 10px 20px;
+	color:#5da8ef;
+	border-bottom: 0.5px solid #5da8ef;
+	
+}
+	#footer
+{
+	width: 88%;
+	text-align: center;
+}
+#logofoot
+{  height:50px;
+	background: url(../images/background/logo.png) no-repeat center;
+    color:#ffffff;
+text-indent: -9999px;
+	margin:0px;
+	padding:0px;
+	
+}
+	#footer nav a
+	{
+		font-size:12px;
+		margin: 0px 20px;
+	}
+}
