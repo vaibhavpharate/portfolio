@@ -1,0 +1,851 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px auto;
+	padding: 0px;
+}
+#Mainwrapper
+{
+	width:100%;
+	height:auto;
+	
+}
+.loaderscreen
+		{
+			width:100%;
+			height: 100%;
+			position: absolute;
+			top:0;
+			left:0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 100000;
+			background: #f4f4f4;
+		}
+.spinner {
+  width: 60px;
+  height: 60px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+body a
+{
+	text-decoration: none;
+
+	display: inline-block;
+		
+}
+
+body ul
+{
+	list-style-type:none;
+}
+strong
+{
+	font-family: "montserrat" , sans-serif;
+	display: block;
+	
+}
+#Header 
+{
+	vertical-align: top;
+	padding-top: 7px;
+	background: #e9e9e9;
+}
+#Header #logo
+{
+	color:#e9e9e9;;
+	width: 11%;
+	background: url(../Images/illustrations/logo.png) no-repeat center;
+	display: inline-block;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+#Header #navbar
+{
+	display:inline-block;
+	font-family: "montserrat" , sans-serif;
+	width: 87%;
+    box-sizing: border-box;
+	text-transform: uppercase;
+	text-align:left;
+	
+}
+#Header #navbar a
+{  line-height: 35px;
+	
+	font-size: 0.6em;
+	font-weight: bold;
+	padding: 0px 10px;
+	font-family:"nunito", sans-serif;
+	color:#787878;
+	text-transform: uppercase;
+	
+}
+#Header  nav.blocknav
+{
+display: block !important;
+}
+#Header  nav.blocknav a
+{
+	display: block;
+	text-align: center;
+	font-size: 1.1rem !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+#Header nav 
+{
+	display: none;
+	
+}
+#Hero
+{
+	width: 100%;
+	background: #e9e9e9;
+	text-align: center;
+	
+	background: url(../Images/background/Sunset.jpg) no-repeat center;
+}
+.cover
+{
+	background: rgba(138,138,138,0.5);
+	padding: 20px 0px;
+}
+#Hero strong
+{
+	font-family: "montserrat" , sans-serif;
+	display: block;
+	font-weight: bold;
+	margin-bottom:15px;
+}
+#Hero p
+{
+	font-size:0.9em;
+	font-family:"nunito", sans-serif;
+	width:98%;
+	color:#fff;
+	margin-bottom: 20px;
+}
+#Hero a
+{font-family: "montserrat" , sans-serif;
+	font-size:0.7em;
+	color:#ffffff;
+	padding:7px 13px;
+	background: #10c9c3;
+	text-transform: uppercase;
+	
+
+	
+}
+.clear
+{
+	clear: both !important;
+}
+.menubutton
+{
+	display: inline-block;
+	padding:7px 10px !important;
+	float: right;
+	margin-right: 15px;
+}
+#Aboutus
+{
+	text-align: center;
+	margin-top:20px;
+}
+
+#Aboutus strong
+{
+	font-size:1em;
+	font-family: "montserrat" , sans-serif;
+	color:#191919;
+	display: block;
+	margin-bottom: 10px;
+}
+#Aboutus p
+{
+	font-size: 0.9em;
+	width:95%;
+	color:#787878;
+	font-family:"nunito", sans-serif;
+	margin-bottom: 10px;
+}
+#Aboutus img
+{
+	width:36%;
+}
+#ProfSkils
+{
+	text-align: center;
+	background: #f8f9f9;
+	
+	padding: 20px 0px;
+}
+#Titles
+{
+	background: #10c9c3;
+	text-align: center;
+	padding: 10px 0px;
+font-size: 0.8em;
+}
+
+.Achievements
+{
+	margin: 10px 0px;
+	
+}
+.Image
+{
+	display:inline-block;
+	width: 20%;
+}
+.What
+{
+	display: inline-block;
+	color:#ffffff;
+	font-family: "montserrat" , sans-serif;
+	text-transform: uppercase;
+	text-align: justify;
+	width:79%;
+	padding-bottom: 10px;
+	
+}
+#Photos
+{
+
+
+
+}
+.White
+{
+	box-sizing: border-box;
+width: 50%;
+	display: inline-block;
+	background: #dddddd;
+	height: 190px;
+		float:left;
+
+}
+.Grey
+{
+	box-sizing: border-box;
+    width: 50%;
+	display: inline-block;
+	background: #838383;
+		height: 190px;
+	float:left;
+	
+}
+
+#Photos1 a
+{
+
+	font-family: "montserrat" , sans-serif;
+	text-transform: uppercase;
+	color: #8e8e8e;
+	text-align: center;
+	background: #f5f5f5;
+	font-size: 1em;
+   width:100%;
+	padding: 10px 0px;
+	
+	
+
+}
+#Photos1 a p
+{
+	padding-top: 10px;
+}
+#OurProgress
+{
+	text-align: center;
+	margin-top: 20px;
+	
+}
+#OurProgress strong
+{
+	margin-bottom: 10px;
+}
+#OurProgress p
+{
+	font-family:"nunito", sans-serif;
+	color: #787878;
+	width: 95%;
+	font-size: 0.8em;
+}
+#OurProgress video
+{
+	margin-top:20px;
+	width: 100%;
+}
+#OurExperties
+{
+	background: #f5f5f5;
+	text-align: center;
+	padding:10px 0px;
+}
+
+.MT::-webkit-meter-bar {background: #e6e6e9;} /*background color of bar*/
+.MT::-webkit-meter-optimum-value {background: #10c9c3;}
+.MT::-webkit-meter-suboptimum-value{background:orange;}
+.MT::-webkit-meter-even-less-good-value{background:red;}
+#OurExperties a
+{width:49%;}
+a .Exp
+{
+display:inline-block;
+vertical-align: top;
+margin-bottom: 15px;}
+a .Exp
+{
+display:inline-block;
+vertical-align: top;
+margin-bottom: 15px;}
+a .Exp strong
+{
+	font-size:0.8em;
+	color:#191919;
+	margin-bottom: 5px;
+}
+#Photos img
+{
+	width:100%;
+	height: 100%;
+}
+a .Exp p
+{
+	font-size:0.8em;
+	color:#787878;
+}
+#SomethingSome1said
+{
+	text-align: center;
+	color:#ffffff;
+	font-family: "montserrat" , sans-serif;
+	background: #10c9c3;
+	padding: 15px 0px;
+}
+#SomethingSome1said h4
+{
+	text-transform: uppercase;
+	font-size: 0.7em;
+}
+#SomethingSome1said p
+{
+	margin-bottom: 10px;
+}
+#Sponsor
+{
+	text-align: center;
+	margin-top:15px;
+}
+#Sponsor a 
+{
+	width:49%;
+}
+#Submit
+{
+	background: #f5f5f5;
+	text-align: center;
+	padding:20px;
+}
+#Submit p
+{
+	font-size: 0.8em;
+	font-family:"nunito", sans-serif;
+	color:#787878;
+}
+#Submit strong
+{
+	margin-bottom:10px;
+}
+#Submit form
+{
+	margin-top: 20px;
+	
+}
+#Submit form input
+{
+	border:none;
+	height: 2em;
+	margin: 5px 0px;
+}
+	#Submit form input.top
+	{
+		width: 47%;
+		
+	}
+.Strech
+{
+	width: 97%;
+	border: none;
+	height: 3em;
+}
+#Sub
+{
+
+
+	padding: 10px 12px;
+	line-height: 15px;
+	font-size: 1em;
+	color:#fff;
+	background: #10c9c3;
+}
+#Footer
+{
+	background: #141414;
+	text-align: center;
+	color:#bcbcbc;
+	font-size: 0.8em;
+	padding: 15px;
+}
+#Copyright
+{
+	padding:10px 0px;
+}
+#Copyright h3
+{
+	color:#fff;
+	font-size: 1em;
+}
+
+#Email 
+{
+	
+	padding: 10px;
+}
+#lists
+{
+	text-align: center;
+	width: 90%;
+}
+.Project
+{
+	text-align: center;
+	display: inline-block;
+	width: 49%;
+}
+.Project ul.new a
+
+{
+	padding:10px 0px;
+	display:block;
+	color:#bcbcbc;
+}
+.Project a
+{
+	color:#bcbcbc;
+	display: block;
+}
+#ProfSkils h4.profhead
+{
+	font-size: 1em;
+	font-family: "montserrat" , sans-serif;
+	margin-bottom: 5px;
+}
+
+.met
+{
+	width:85%;
+	text-align: left;
+	padding:20px;
+}
+.met meter
+{
+	width:90%;
+	height:3px;
+	
+}
+ul#AA a
+{
+	display:block;
+	color:#bcbcbc;
+	padding:10px 0px ;
+	margin:5px;
+}
+#Project1 ul#BB a
+{
+	margin:0px 5px;
+}
+#Project1 ul#BB a img
+{
+	width:48px;
+}
+.ldBar
+	{
+		width:100% !important;
+	}
+@media only screen and (min-width: 768px)
+{
+	*
+	{
+		margin:0px auto;
+		
+	}
+	#Header nav 
+	{
+		display: block;
+	}
+	.menubutton
+	{
+		display: none !important;
+	}
+	#Mainwrapper{
+		width:1366px;
+		height:auto;
+	}
+	#Header
+	{
+		height:95px;
+		text-align: right;
+	}
+	#logo
+	{
+		height: 95px;
+		padding: 0px;
+	}
+	#navbar
+	{
+		text-align: right;
+		height: 95px;
+	}
+#Header #navbar nav
+	{
+		line-height: 95px;
+		width: 770px;
+	}
+	#Header #navbar a:nth-child(even)
+{
+	display: inline-block;
+	
+}
+	#Header #navbar a
+	{   display: inline-block;
+		margin: 0px 10px;
+		font-weight:bold;
+		font-size: 12px;
+	}
+	#Header #navbar a:hover{
+		color:#10c9c3;
+	}
+	#Hero
+	{
+		height: 580px;
+		text-align:center;
+
+		
+	}
+	.cover
+	{
+		padding: 0px 0px;
+	}
+	.imgpic
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.ldBar-label
+	{
+		display: none !important;
+	}
+#Content
+	{
+		display: inline-block;
+		vertical-align: top;
+		width:600px;
+		height:580px;
+	}
+	#HeroContent
+	{
+		Width:500px;
+		height:250px;
+		text-align: left;
+		margin: 0px;
+		display:inline-block;
+		vertical-align: top;
+		margin-top: 140px;
+		
+	}
+	#HeroContent strong
+	{
+		font-size:38px;
+		margin-bottom: 20px;
+		font-weight: bold;
+		color:white;
+	}
+	#HeroContent p
+	{
+		font-size:20px;
+	}
+		#HeroContent a
+	{
+		font-size:10px;
+		padding:15px 30px;
+	}
+#Aboutus
+	{
+		height: 340px;
+	}
+	#Aboutus strong
+	{
+		font-size:30px;
+		margin-top:100px;
+		margin-bottom:20px;
+	}
+		#Aboutus p
+	{
+		width:640px;
+		font-size:18px;
+		margin-bottom: 25px;
+	}
+	#Aboutus img
+	{
+		width: 245px;
+	}
+	#ProfSkils
+	{
+		height: 570px;
+		padding:0px;
+	}
+		#ProfSkils #Skills
+	{
+		width:50%;
+		display: inline-block;
+		vertical-align: top;
+		padding: 144px 0px;
+		float:left;
+		
+	}
+	#ProfSkils #pic
+	{
+		
+		width:50%;
+		display: inline-block;
+			height: 570px;
+		background: #e9e9e9;
+		float:left;
+	}
+		#ProfSkils #Skills strong
+	{
+		font-size:30px;
+		width: 85%;
+		text-align: left;
+		
+	}
+	#Titles
+	{
+		padding:76px 0px;
+	}
+	.Achievements
+	{
+		width: 24%;
+		display: inline-block;
+		vertical-align: top;
+		
+	}
+		.Achievements .What
+	{
+		width:56%;
+	}
+		.Achievements .What p
+	{
+		font-size: 15px;
+	}
+	#Photos
+{
+
+	height:540px;
+}
+	.Grey , .White
+	{
+		height: 290px;
+		width:25%;
+	}
+	#Photos img
+	{
+		width:100%;
+		height: 100%;
+	}
+	.Grey:hover , .White:hover{
+		background: rgba(7,6,6,0.65);
+	}
+	#Photos a
+	{
+		padding: 52px 0px;
+		
+		font-size: 20px;
+	}
+	#Photos1
+	{
+		padding-bottom:200px;
+	}
+#OurProgress
+	{
+	padding-bottom: 20px;
+		margin:0px;
+	}
+#OurProgress strong
+	{
+		font-size: 30px;
+		margin:35px 0px;
+	}
+	#OurProgress p
+	{
+		font-size:18px;
+		color:#787878;
+		width: 520px;
+		text-align: center;
+	}
+	#OurProgress video
+	{
+		width: 1160px;
+	}
+		#OurExperties
+	{
+		padding:80px 0px;
+	}
+	#OurExperties a
+	{
+		width: 20%;
+		margin: 15px;
+		vertical-align: top;
+	}
+		#OurExperties a p
+	{
+		width:70%;
+	}
+	#SomethingSome1said
+	{
+		padding: 70px;
+	}
+	#SomethingSome1said p
+	{
+		font-size:24px;
+		width:835px;
+	}
+		#SomethingSome1said h4
+	{
+		font-size:16px;
+	}
+	#Sponsor a
+	{
+		width:16%;
+		margin:0px 25px ;
+	}
+	#Sponsor
+	{
+		padding:60px 0px;
+	}#Submit
+	{
+		padding: 30px 0px;
+	}
+	#Submit strong
+	{
+		font-size: 30px;
+	}
+	#Submit p
+	{
+		font-size: 18px;
+		width:545px;
+	}
+	#Submit form input
+	{height: 40px;}
+	#Submit form input.top
+	{
+		width: 320px;
+		
+	}
+	#Submit form
+	{
+		width:650px;
+	}
+	#Submit form input.Strech
+	{width: 100%;}	#Submit form textarea
+	{width:100%;
+	 height: 170px;}
+	#Submit form #Sub
+	{
+		margin-top: 30px;
+	}
+	#Footer #Copyright
+	{
+		width: 40%;
+			display:inline-block;
+		vertical-align: top;
+	}
+	#Footer 
+	{
+		padding:40px 0px 80px 0px;
+	}
+	#Footer #Email
+	{
+		width: 25%;
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+	}
+	ul#AA a
+	{
+		padding:0px;
+	}
+	ul.new a
+	{ padding:0px !important; }
+	#Footer #Email ul li
+	{
+		margin:10px 0px;
+		font-size: 18px;
+	}
+		#Footer #Copyright h3
+	{
+		margin: 20px 0px 10px;
+		font-size: 18px;
+	}
+	#Footer #lists
+	{
+		width:33%;
+		display:inline-block;
+		vertical-align: top;
+		text-align: left;
+	}
+	#Footer #lists .Project
+	{
+		text-align: left;
+	}
+	#Footer #lists .Project ul li
+	{
+		font-size: 18px;
+		margin: 5px 0px;
+	}
+	#Project1
+	{
+		margin-top:15px;
+	}
+	}

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+#UIUX
+{
+	text-align: center;
+	background: #f6f6f6;
+	padding:20px 0px;
+}
+#UIContent strong
+{
+	font-size: 1.1em;
+margin-bottom: 10px;}
+#UIContent p
+{
+	font-size: 0.9em;
+	font-family:"nunito" sans-serif;
+	color:#787878;
+	width:85%;
+	margin-bottom:30px;
+}
+#Gallary .Pic1
+{
+	width:25%;
+		height:95px;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+	background: #838383;
+}
+
+#Gallary .Pic2
+{
+	background: #dddddd;
+	width:25%;
+		height:95px;
+	display: inline-block;
+	box-sizing: border-box;
+	float: left;
+}
+@media only screen and (min-width: 768px)
+{
+	#Gallary 
+	{
+		height:900px;
+	}
+#Gallary .Pic1 ,#Gallary .Pic2
+	{
+		height:33.3333%;
+	}
+	#UIContent strong
+{
+	font-size: 38px;
+	padding-top:100px;
+}
+	#UIContent p
+	{
+		font-size:20px;
+		width:540px;
+			margin-bottom:100px;
+	}
+	#navbar nav a:nth-child(1)
+{
+	color:#10c9c3 !important;
+}
+}

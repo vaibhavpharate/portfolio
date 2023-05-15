@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+#Profile
+{
+	text-align: center;
+	color:#ffffff;
+	background: #3e3e3e;
+	padding: 40px 0px;
+}
+ nav a:nth-child(3)
+{
+	color:#10c9c3 !important;
+}
+#Profile h3
+{
+	font-size:1.4em;
+	margin-bottom:15px;
+	font-family: "montserrat" , sans-serif;
+}
+#Profile p
+{
+	
+	font-size: 0.8em;
+	font-family:"nunito", sans-serif;
+	width:85%;
+	
+}
+#AboutMe
+{
+	text-align:center;
+	padding: 40px 0px;
+	background:#f5f5f5;
+}
+#AboutMe strong
+{
+	font-size:1.2em;
+	
+}
+#AboutMe p
+{
+	width:85%;
+	text-align:justify;
+	padding:10px 0px 0px 5px;
+	font-family:"nunito", sans-serif;
+}
+#Picture
+{
+	width:100%;
+	height:300px;
+	background: #e1e1e1;
+}
+#Profileinfo
+{
+		background: #e1e1e1;
+	height:571px;
+}
+#Need
+{
+	text-align: center;
+	background:#7a7a7a;
+	padding:40px 0px;
+}
+#Need strong
+{
+	font-size:1.2em;
+	margin-bottom:15px;
+	font-family: "montserrat" , sans-serif;
+	color:#1d1d1d;
+}
+#Need p
+{
+	width:85%;
+	text-align:center;
+	font-size:1em;
+	padding:10px 0px 20px 0px;
+	font-family:"nunito", sans-serif;
+}
+#Need a
+{
+	text-transform:uppercase;
+color:#ffffff;
+	padding:10px 17px;
+	background:#10c9c3;
+		font-family:"nunito", sans-serif;
+}
+@media only screen and (min-width: 768px)
+{
+	#Profile
+{
+	
+	padding: 110px 0px;
+}
+#Profile h3
+{
+	font-size:38px;
+	margin-bottom:19px;
+	}
+#Profile p
+{
+	
+	font-size: 20px;
+		vertical-align: top;
+	width:530px;
+}
+#Picture
+{
+	width:50%;
+	height:570px;
+		display: inline-block;
+	vertical-align: top;
+	float:left;
+	
+}	
+	#AboutMe
+{
+	padding: 145px 0px;
+	width: 50%;
+	float:left;
+	display: inline-block;
+}
+#Info
+	{
+		text-align: left;
+		width: 465px;
+		
+	}
+#AboutMe strong
+{
+	font-size:30px;
+	padding-bottom: 40px;
+}
+#AboutMe p
+{
+	
+	font-size: 18px;
+	width:100%;
+	
+	
+}
+	#Need
+{
+	
+	padding: 104px 0px;
+}
+#Need strong
+{
+	font-size:30px;
+	margin-bottom:25px;
+	
+}
+#Need p
+{
+	width:540px;
+	text-align:center;
+	font-size:18px;
+	
+	
+}
+#Need a
+{
+	
+	padding:15px 25px;
+
+}
+}
